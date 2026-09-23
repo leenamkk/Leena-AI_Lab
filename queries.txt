@@ -1,0 +1,32 @@
+8 ?- father(mohammed, sara).
+true.
+
+9 ?- father(rema, mohammed).
+false.
+
+10 ?- mother(maha, lama).
+true.
+
+11 ?- mother(mohammed, ahmed).
+false.
+
+12 ?- brother(ahmed, sara).
+true .
+
+13 ?- brother(lama, ahmed).
+false.
+
+14 ?- sister(ahmed, sara).
+false.
+
+15 ?- sister(lama, ahmed).
+true .
+
+16 ?- mother(rema, mohammed).
+true.
+
+17 ?- sister(maha, mohammed).
+false.
+
+18 ?- father(fahad, mohammed).
+true.
